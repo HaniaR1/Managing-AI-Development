@@ -1,23 +1,51 @@
-# Managing-AI-Development
-# Week 2 AI Data Preprocessing Exercise
+# AI Development and Infrastructure – Weekly Reading Reports Repository
 
 ## Overview
-This is a repository for an exercise related to Lecture 2: Data Analysis and Feature Engineering for AI Applications. This exercise aims at applying the entire early machine learning pipeline with the use of structured data.
-## Dataset
-Dataset: UCI Wine Quality Dataset. It contains features of wine samples with respect to their physicochemical properties, as well as a quality score. In this exercise, the problem is to predict the quality of a wine sample given its features.
-## Project Structure
-- `data/`: holds the dataset or its link to download it.
-- `src/train_model.py`: loads the dataset, pre-processes features, trains several models, and prints evaluation metrics.
-- `outputs/`: holds generated plots and evaluation metrics.
-- `requirements.txt`: holds list of required Python packages to run this project.
-## How to run
-1. Install Python version 3.10 or higher.
-2. Create a virtual environment.
-3. Run `pip install -r requirements.txt`.
-4. Put dataset CSV file in `data/` directory.
-5. Run `python src/train_model.py`.
 
-## Expected Output
-The script prints missing value checks, dataset shape, model performance scores, and a confusion matrix. It also saves simple exploratory plots in the `outputs/` folder.
-## Learning Outcomes
-By completing this exercise, students practise data loading, exploration, feature scaling, train-test splitting, model comparison, and evaluation using metrics beyond simple accuracy.
+This repository contains practical exercises, datasets, and supporting README files for the **AI Development and Infrastructure** course.
+
+Each week is organised in a separate folder so that the lecture notes, reading requirements, practical work, dataset, and instructions can be found easily. The purpose of this repository is to keep all weekly learning material in one structured location and make it simple to review and practise.
+
+
+---
+
+## How to Navigate the Repository
+
+To use this repository, open the folder for the relevant week. Each week contains the dataset used for the practical exercise, and a separate README file explaining that week’s work.
+
+For example, to access Week 2:
+
+```text
+Week_2/
+```
+
+Inside the Week 2 folder, you will find:
+
+```text
+Dataset/
+Practical_Exercise/
+README.md
+```
+
+
+### Weekly README File
+
+Each week contains its own `README.md` file.
+
+Example:
+
+```text
+Week_2/README.md
+```
+
+The weekly README explains:
+
+* The topic of the week
+* What dataset was used
+* How to run the practical exercise
+* What files are included
+* Any important notes or references
+
+Before opening the practical exercise or dataset, read the weekly README first.
+
+
